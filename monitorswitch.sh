@@ -220,6 +220,8 @@ do
 	
 	# Calling a function with arguments (connection statuses to ports)
 	enabled_behavior  $connectionEdp1  $connectionDp1  $connectionHdmi1 
-
+	
+	# Delay to increase performance
+	sleep 5
 
 done
